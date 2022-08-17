@@ -1,0 +1,38 @@
+.easy{
+    padding: 30px 50px;
+    background-color: #F2EFE6;
+    text-align: center;
+
+   &__box{
+display: flex;
+justify-content: space-around;
+&__n1{
+    position: relative;
+    width: 260px;
+    align-items: center;
+    display: flex;
+    p{
+        width: 260px;
+    }
+    &__right{
+       width: 75px;
+       height: 35px; 
+    }
+    
+}
+    
+    }
+    &__button{
+        border-radius: 160px;
+        background-color: #198C36;
+        width: 244px;
+        height: 52px;
+        color: #FBFAF7;
+        font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+border: 1px solid #198C36;
+margin-bottom: 80px;
+margin-top: 50px;
+    }
+}

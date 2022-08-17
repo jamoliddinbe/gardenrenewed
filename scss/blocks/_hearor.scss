@@ -1,0 +1,30 @@
+.hearor{
+    display: flex;
+    background-color: #163A24;
+justify-content: space-around;
+    &__hearor-left{
+      width: 40%;
+      margin-left: 50px;
+      margin-top: 70px;
+      h1{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 65px;
+        color: white;
+        width: 391px;
+        height: 196px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: white;
+        width: 475px;
+        height: 81px;
+      }
+    }
+    &__hearor-right{
+        width: 738px;
+        height: 580px;
+    }
+}

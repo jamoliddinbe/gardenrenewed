@@ -1,0 +1,43 @@
+.footer{
+    hr{
+        width: 1180px;
+        height: 1px;
+        background-color: #F2EFE6;
+    }
+padding-top: 20px;
+    &__top{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__nav{
+           li{
+            list-style: none;
+           }
+           a{
+            margin-left: 10px;
+           }
+ul{
+    display: flex;
+}
+        }
+
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-around;
+        &__nav{
+            ul{
+                display: flex;
+            }
+            li{
+                list-style: none;
+                margin-left: 20px;
+            }
+            a{
+                font-size: 14px;
+                color: #15762E;
+                text-decoration: none;
+            }
+        }
+    }
+}

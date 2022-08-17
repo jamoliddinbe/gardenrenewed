@@ -1,0 +1,21 @@
+.quality{
+    padding: 50px;
+    background-color: #163A24;
+    text-align: center;
+    h1{
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+color: #FBFAF7;
+    }
+    &__box{
+        width: 80%;
+        margin-left: 140px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        p{
+            color: white;
+        }
+    }
+}
