@@ -23,3 +23,35 @@ line-height: 22px;
 }
     }
 }
+@media screen and (max-width:768px){
+    .resource{
+        width: 768px;
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-around;
+        align-items:center;
+        &__left{
+            h1{
+                font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    width: 200px;
+            }
+    &__button{
+        width: 96px;
+        height: 26px;
+        background-color: #198C36;
+        border: 1px solid #198C36;
+        color: white;
+        font-weight: 200;
+    font-size: 8px;
+    line-height: 11px;
+        border-radius: 80px;
+    }
+        }
+        &__img{
+            width: 350px;
+            height: 300px;
+        }
+    }
+}

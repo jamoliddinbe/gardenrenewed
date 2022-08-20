@@ -5,6 +5,10 @@
     display: flex;
 justify-content: space-around;
 align-items: center;
+&__img{
+  width: 350px;
+  height: 300px;
+}
   h1{
     text-align: start;
     width: 425px;
@@ -63,4 +67,69 @@ color: #163A24;
     margin-left: 150px;
 }
 }
+}
+@media screen and ( max-width:768px){
+  .partner{
+    width: 768px;
+    &__part1{
+      display: flex;
+  justify-content: space-around;
+  align-items: center;
+    h1{
+      text-align: start;
+      width: 212px;
+      height: 54px;
+      color: #163A24;
+      font-weight: 300;
+  font-size: 24px;
+  line-height: 27px;
+    }
+    p{
+      text-align: start;
+      font-weight: 200;
+  font-size: 9px;
+  line-height: 14px;
+  color: #163A24;
+  width: 187px;
+  height: 27px;
+    }
+  }
+  &__part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      h1{
+        text-align: start;
+        width: 212px;
+        height: 54px;
+        color: #163A24;
+        font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+      }
+      p{
+        text-align: start;
+        font-weight: 200;
+    font-size: 9px;
+    line-height: 14px;
+    color: #163A24;
+    width: 287px;
+    height: 27px;
+      }
+    }
+    &__part3{
+      h1{
+          font-weight: 300;
+      font-size: 24px;
+      line-height: 27px;
+      color: #163A24;
+      }
+      &__box{
+          display: flex;
+          justify-content: space-around;
+          width: 700px;
+          margin-left: 0px;
+      }
+      }
+  }
 }

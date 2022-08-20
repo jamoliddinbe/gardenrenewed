@@ -36,3 +36,44 @@ margin-bottom: 80px;
 margin-top: 50px;
     }
 }
+@media screen and (max-width:768px){
+    .easy{
+        width: 768px;
+        padding: 15px 25px;
+        background-color: #F2EFE6;
+        text-align: center;
+    
+       &__box{
+    display: flex;
+    justify-content: space-around;
+    &__n1{
+        position: relative;
+        width: 130px;
+        align-items: center;
+        display: flex;
+        p{
+            width: 130px;
+        }
+        &__right{
+           width: 38px;
+           height: 18px; 
+        }
+        
+    }
+        
+        }
+        &__button{
+            border-radius: 80px;
+            background-color: #198C36;
+            width: 122px;
+            height: 26px;
+            color: #FBFAF7;
+            font-weight: 200;
+    font-size: 8px;
+    line-height: 11px;
+    border: 1px solid #198C36;
+    margin-bottom: 40px;
+    margin-top: 25px;
+        }
+    }
+}

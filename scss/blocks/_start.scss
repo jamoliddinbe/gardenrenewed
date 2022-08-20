@@ -28,3 +28,36 @@ border: 1px solid #FAB5A0 ;
     }
 }
 }
+@media screen and (max-width:768px){
+    .start{
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+    background-color: #163A24;
+    
+    &__middle{
+        text-align: center;
+        margin-top: 40px;
+        h1{
+            font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    color: white;
+        }
+        p{
+            color: white;
+        }
+        &__button{
+            width: 129px;
+            height: 26px;
+            background-color: #FAB5A0;
+            color:#163A24 ;
+            font-weight: 300;
+    font-size: 8px;
+    line-height: 11px;
+    border-radius: 80px;
+    border: 1px solid #FAB5A0 ;
+        }
+    }
+    }
+}
