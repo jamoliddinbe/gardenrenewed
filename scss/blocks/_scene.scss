@@ -141,3 +141,101 @@ color: #163A24;
         }
     }
 }
+@media screen and (max-width:500px){
+    .scene{
+        width: 500px;
+        background-color: rgb(176, 176, 176);
+    padding: 25px;
+ padding-bottom: 150px;
+        &__head{
+            h1{
+                width: 500px;
+             margin-left: -60px;
+            }
+            p{
+                width: 600px;
+                margin-left: -100px;
+            }
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            &__img{
+                width: 340px;
+                height: 250px;
+            }
+            &__left{
+                width: 190px;
+                h1{
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 27px;
+                }
+                p{
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 14px;
+    color: #163A24;
+                }
+            }
+        }
+        &__foot{
+            text-align: center;
+            h1{
+                font-size: 24px;
+            }
+            &__box{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: space-around;
+               
+                &__small{
+                    margin-left: 150px;
+                    text-align: start;
+                    padding: 10px;
+                    margin-bottom: 50px;
+                    h2{
+                        width: 80px;
+                        font-size:18px;
+                    }
+                    h3{
+                        width: 125px;
+                        font-size:16px;
+                    }
+                    ul{
+                        margin-top: 50px;
+                    }
+                    li{
+                        line-height: 20px;
+                        font-size: 14px;
+                    }
+      box-shadow: 5px 5px 20px #E9E4D5;
+      border-radius: 15px;
+      width: 151px;
+      height: 173px;
+      background-color: #FBFAF7;
+    
+                }
+                &__big{
+                    margin-left: 150px;
+                    box-shadow: 5px 5px 20px #E9E4D5;
+                    border-radius: 15px;
+                    padding: 10px;
+                    font-size:12px;
+                    width: 165px;
+                    height: 200px;
+                    background-color: #FBFAF7;  
+                    line-height: 20px;
+                    text-align: start;
+                    margin-top: 100px;
+                    margin-bottom: 150px;
+                    ul{
+                        margin-top: 70px;
+                    }
+                }
+               
+            }
+        }
+    }
+}

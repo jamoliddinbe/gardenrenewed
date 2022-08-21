@@ -19,6 +19,10 @@ margin-left: 200px;
 }
 @media screen and (max-width:768px){
     .employee{
+        &__img{
+         width: 700px;
+         height: 250px;
+        }
         width: 768px;
         background-color: #F2EFE6;
         text-align: center;
@@ -38,4 +42,32 @@ margin-left: 200px;
     margin-left: 120px;
     }
     }
+ 
+}
+@media screen and (max-width:500px){
+    .employee{
+        &__img{
+         width: 480px;
+         height: 150px;
+         margin-left: -40px;
+        }
+        width: 500px;
+        background-color: #F2EFE6;
+        text-align: center;
+    h1{
+        font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    width: 430px;
+margin-left: -10px;
+    }
+    p{
+        width: 380px;
+        font-weight: 200;
+    font-size: 9px;
+    line-height: 14px;
+    margin-left: 20px;
+    }
+    }
+ 
 }

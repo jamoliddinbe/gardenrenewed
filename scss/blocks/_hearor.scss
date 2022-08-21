@@ -64,3 +64,21 @@ justify-content: space-around;
   }
   }
 }
+@media screen and (max-width:500px){
+  .hearor{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    h1{
+      width: 160%;
+      margin-left: -70px;
+    }
+p{
+  font-size: 12px;
+  width: 160%;
+  line-height: 20px;
+  margin-left: -70px;
+}
+  }
+}

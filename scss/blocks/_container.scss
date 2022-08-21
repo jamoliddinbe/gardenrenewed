@@ -1,4 +1,17 @@
 .container{
     width: 1300px;
     margin: 0 auto;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 768px;
+        margin: 0 auto; 
+    }
+}
+@media screen and (max-width:500px){
+    .container{
+        width: 500px;
+        margin: 0 ; 
+    }
+}
